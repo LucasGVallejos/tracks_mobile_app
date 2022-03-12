@@ -33,7 +33,6 @@ export default () => {
     return (
         <AuthProvider>
             <App ref={(navigator) => {
-                console.log(navigator);
                 setNavigator(navigator);
             }}
             />
